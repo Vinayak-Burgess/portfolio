@@ -38,4 +38,10 @@ A high-performance, responsive portfolio environment engineered with a **Cyber-A
 ├── index.html      # Structural logic & SEO meta-tags
 ├── style.css       # Global theme engine & Cyber-animations
 ├── script.js       # UI interactions, QR logic, & Typewriter effects
+
 └── images/         # Visual assets (Profile Logo, Banner, Favicon)
+```
+
+---
+
+### Copyright (c) 2026 Vinayak. All Rights Reserved.
