@@ -138,3 +138,5 @@ function initCaseFile() {
 }
 
 document.addEventListener("DOMContentLoaded", initCaseFile);
+
+//Copyright (c) 2026 Vinayak. All Rights Reserved.
