@@ -72,3 +72,5 @@ function initDevlog() {
 }
 
 document.addEventListener("DOMContentLoaded", initDevlog);
+
+//Copyright (c) 2026 Vinayak. All Rights Reserved.
