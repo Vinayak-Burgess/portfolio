@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Days of Code Devlog | Vinayak Burgess</title>
+    <meta name="description" content="Full 100 Days of Code progress log — Vinayak Burgess">
+    <meta name="theme-color" content="#0d0d12">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" loading="lazy">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <header class="nav-header">
+        <a href="index.html" class="nav-logo" style="cursor:pointer;">VB</a>
+        <div class="nav-links" id="nav-social-links"></div>
+    </header>
+
+    <main class="case-file-page devlog-page">
+        <a href="index.html#progression" class="back-link"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+
+        <div class="section-header">
+            <span class="section-number">FULL LOG //</span>
+            <span class="section-title">100 Days of Code</span>
+        </div>
+        <h1 class="cf-title" id="devlog-title">100 Days of Code: Python</h1>
+        <p class="cf-tagline" id="devlog-subtitle"></p>
+
+        <div class="phases-table" data-testid="phases-table">
+            <div class="phase-row header">
+                <span>Phase</span>
+                <span>Status</span>
+                <span>Focus</span>
+            </div>
+            <div id="phases-table-body"></div>
+        </div>
+
+        <div class="devlog-progress-summary" id="devlog-progress-summary"></div>
+
+        <div class="day-cards devlog-day-cards" id="day-cards-list"></div>
+
+        <div class="cf-actions">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-view btn-case-file" id="devlog-repo-link">
+                <i class="fab fa-github"></i> View GitHub Repository
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="brand-identity">
+                    <span class="footer-name" id="footer-name"></span>
+                </div>
+                <span class="footer-title" id="footer-title"></span>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright" id="footer-copyright"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="devlog-render.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

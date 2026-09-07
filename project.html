@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case File | Vinayak Burgess</title>
+    <meta name="description" content="Project case study — Vinayak Burgess">
+    <meta name="theme-color" content="#0d0d12">
+    <meta name="robots" content="noindex">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" loading="lazy">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <header class="nav-header">
+        <a href="index.html" class="nav-logo" style="cursor:pointer;">VB</a>
+        <div class="nav-links" id="nav-social-links"></div>
+    </header>
+
+    <main class="case-file-page">
+        <a href="index.html#projects" class="back-link"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+
+        <div id="case-file-content">
+        </div>
+
+        <div id="case-file-not-found" style="display:none;">
+            <div class="section-header">
+                <span class="section-number">404.</span>
+                <span class="section-title">Case File Not Found</span>
+            </div>
+            <p class="cf-tagline">This project doesn't exist, or its ID doesn't match anything in data.js.</p>
+            <a href="index.html#projects" class="btn-view"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="brand-identity">
+                    <span class="footer-name" id="footer-name"></span>
+                </div>
+                <span class="footer-title" id="footer-title"></span>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright" id="footer-copyright"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="project-render.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

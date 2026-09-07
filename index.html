@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinayak Burgess | Cybersecurity Student & Python Developer</title>
+    <meta name="description" content="Portfolio of Vinayak Burgess - Cybersecurity Student, Python Developer, and Fashion Enthusiast">
+    <meta name="theme-color" content="#0d0d12">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vinayak Burgess | Cybersecurity Student & Python Developer">
+    <meta property="og:description" content="Specializing in Python automation, offensive security, and high-performance hardware architecture.">
+    <meta property="og:url" content="https://vinayak-burgess.github.io/portfolio/">
+    <meta property="og:image" content="images/og-preview.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vinayak Burgess | Cybersecurity Student & Python Developer">
+    <meta name="twitter:description" content="Specializing in Python automation, offensive security, and high-performance hardware architecture.">
+    <meta name="twitter:image" content="images/og-preview.png">
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" loading="lazy">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="nav-header">
+        <div class="nav-logo">VB</div>
+        <div class="nav-links" id="nav-social-links"></div>
+    </header>
+
+    <!-- Section 1: Hero / Landing -->
+    <main>
+        <section id="hero" class="section hero-section">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="status-indicator">
+                        <span class="status-dot"></span>
+                        <span id="hero-status-text"></span>
+                    </div>
+                    <div class="location" id="hero-location"></div>
+                    <h1 class="hero-name">
+                        <span class="name-first" id="hero-first-name"></span>
+                        <span class="name-last" id="hero-last-name"></span>
+                    </h1>
+                    <div class="terminal-line">
+                        <span class="terminal-prompt">root@vinayak:~#</span>
+                        <span class="terminal-text" id="hero-terminal-role"></span>
+                    </div>
+                    <p class="hero-description" id="hero-description"></p>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn-download" data-testid="download-cv-btn" id="hero-cv-link">
+                        <i class="fas fa-file-alt"></i> Download CV
+                    </a>
+                </div>
+                <div class="hero-right">
+                    <div class="profile-frame">
+                        <div class="frame-outer"></div>
+                        <div class="frame-inner"></div>
+                        <img src="images/profile-top.png" alt="Vinayak Burgess" loading="lazy" class="profile-image" id="profile-image-top">
+                    </div>
+                </div>
+            </div>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+        </section>
+    </main>
+
+    <!-- Section 2: Profile Intelligence -->
+    <section id="profile" class="section">
+        <div class="section-header">
+            <span class="section-number">01.</span>
+            <span class="section-title">Profile Intelligence</span>
+        </div>
+        <div class="profile-content">
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="code-dot red"></span>
+                    <span class="code-dot yellow"></span>
+                    <span class="code-dot green"></span>
+                    <span class="code-filename">security_audit.py</span>
+                </div>
+                <pre class="code-content"><code id="code-block-body"></code></pre>
+            </div>
+            <div class="profile-info">
+                <h2 id="about-title"></h2>
+                <p id="about-text"></p>
+                <div class="stats-grid" id="stats-grid"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Technical Proficiency -->
+    <section id="technical" class="section">
+        <div class="section-header">
+            <span class="section-number">02.</span>
+            <span class="section-title">Technical Proficiency</span>
+        </div>
+        <div class="technical-content">
+            <div class="skills-section" id="skills-list"></div>
+
+            <div class="toolbox-section">
+                <h3>The Toolbox</h3>
+                <div class="tools-grid" id="toolbox-grid"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Operational History -->
+    <section id="experience" class="section">
+        <div class="section-header">
+            <span class="section-number">03.</span>
+            <span class="section-title">Operational History</span>
+        </div>
+        <div class="timeline-content">
+            <h2>Experience</h2>
+            <div class="timeline" id="experience-timeline"></div>
+        </div>
+    </section>
+
+    <!-- Section 5: Education -->
+    <section id="education" class="section">
+        <div class="section-header">
+            <span class="section-number">04.</span>
+            <span class="section-title">Academic Background</span>
+        </div>
+        <div class="timeline-content">
+            <h2>Education</h2>
+            <div class="timeline" id="education-timeline"></div>
+        </div>
+    </section>
+
+    <!-- Section 6: Featured Projects -->
+    <section id="projects" class="section">
+        <div class="section-header">
+            <span class="section-number">05.</span>
+            <span class="section-title">System Deployment</span>
+        </div>
+        <div class="projects-content">
+            <h2>Featured Projects</h2>
+            <div id="projects-list"></div>
+        </div>
+    </section>
+
+    <!-- Section 7: 100 Days of Code -->
+    <section id="progression" class="section">
+        <div class="section-header">
+            <span class="section-number">06.</span>
+            <span class="section-title">Progression Log</span>
+        </div>
+        <div class="progression-content">
+            <h2>100 Days of Code: <i class="fab fa-python"></i> Python</h2>
+            <p class="progression-subtitle" id="progression-subtitle"></p>
+            <div class="phases-table" data-testid="phases-table">
+                <div class="phase-row header">
+                    <span>Phase</span>
+                    <span>Status</span>
+                    <span>Focus</span>
+                </div>
+                <div id="phases-table-body"></div>
+            </div>
+
+            <div class="day-cards" id="day-cards-list"></div>
+
+            <div class="progression-actions">
+                <a href="devlog.html" class="btn-view btn-case-file" data-testid="view-full-log">
+                    <i class="fas fa-list"></i> View Full Log
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn-view" data-testid="view-100days-repo" id="view-100days-repo">
+                    <i class="fab fa-github"></i> View GitHub Repository
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Affiliations -->
+    <section id="affiliations" class="section">
+        <div class="section-header">
+            <span class="section-number">07.</span>
+            <span class="section-title">Digital Credentials</span>
+        </div>
+        <div class="affiliations-content">
+            <h2>Affiliations</h2>
+            <div class="affiliations-grid" id="affiliations-grid"></div>
+
+            <div class="google-dev-btn-container">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn-google-dev" data-testid="google-dev-btn" id="google-dev-link">
+                    <i class="fab fa-google"></i> Google Developer Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 9: Establish Connection -->
+    <section id="connect" class="section">
+        <div class="section-header">
+            <span class="section-number">08.</span>
+            <span class="section-title">Uplink</span>
+        </div>
+        <div class="connect-content">
+            <h2>Establish Connection</h2>
+            <div class="connect-profile">
+                <div class="profile-frame small">
+                    <div class="frame-outer"></div>
+                    <div class="frame-inner"></div>
+                    <img src="images/profile-bottom.png" alt="Vinayak Burgess" loading="lazy" class="profile-image" id="profile-image-bottom">
+                </div>
+            </div>
+            <div class="uplinks-grid" id="uplinks-grid"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="brand-identity">
+                    <div class="footer-logo-container">
+                        <img src="images/logo.png" alt="Vinayak Burgess Logo" loading="lazy" class="footer-profile-img">
+                    </div>
+                    <span class="footer-name" id="footer-name"></span>
+                </div>
+                <span class="footer-title" id="footer-title"></span>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-tagline" id="footer-tagline"></p>
+                <p class="footer-copyright" id="footer-copyright"></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="data.js"></script>
+    <script src="render.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
