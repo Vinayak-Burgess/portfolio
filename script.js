@@ -132,3 +132,5 @@ animateStyle.textContent = `
     }
 `;
 document.head.appendChild(animateStyle);
+
+//Copyright (c) 2026 Vinayak. All Rights Reserved.
