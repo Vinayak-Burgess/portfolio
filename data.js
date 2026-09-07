@@ -284,3 +284,5 @@ const PORTFOLIO_DATA = {
     copyrightYear: "2026"
   }
 };
+
+//Copyright (c) 2026 Vinayak. All Rights Reserved.
