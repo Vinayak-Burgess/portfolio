@@ -273,4 +273,4 @@ function renderPortfolio() {
 
 document.addEventListener("DOMContentLoaded", renderPortfolio);
 
-//Copyright (c) 2026 Vinayak. All Rights Reserved.
+// Copyright (c) 2026 Vinayak. All Rights Reserved.
